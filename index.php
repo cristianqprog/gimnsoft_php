@@ -1,4 +1,5 @@
-
+<?php
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,9 +7,9 @@
 	<title>roles</title>
 </head>
 <body>
-<form action="post.php" method="post">
-	<input type="text" name="descripcion" placeholder="ingresa descripcion">
-
+<form action="guardar.php" method="POST">
+	<input type="text" name="rol_descrpcion" placeholder="ingresa descripcion">
+	
 	<button type="submit">enviar</button> 
 </form>	
 	
